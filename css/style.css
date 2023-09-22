@@ -4,7 +4,7 @@
 }
 body {
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1440px;
     font-family: 'Roboto', 'Raleway', sans-serif;
     background-color: #ffffff;
     font-weight: 400;
@@ -22,20 +22,41 @@ body {
     line-height: 0.9;
     font-weight: 700;
 }
-.header a{
+
+.header {
+    display: flex;
+    margin-left: 156px;
+
+}
+
+.logo{
     font-size: 18px;
+    font-weight: 700;
     line-height: 1.1;
     letter-spacing: 3%;
 }
-.nav{
+.nav,.nav ul {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 40px;
+    flex-grow: 1;
     font-weight: 500;
     color: #2E2F42;
 }
+
+
 .nav li a:hover{
     color: #404BBF;
 }
 .nav li a:focus{
     color: #404BBF;
+}
+.info{
+    font-weight: 400;
+    display: flex;
+    margin-right: 156px;
+    gap: 40px;
 }
 .info a{
     font-weight: 400;
@@ -54,17 +75,25 @@ body {
 /* main */
 
 .s-1{
+    display: flex;
+    flex-direction: column;
     height: 600px;
     background-color: #2E2F42;
     text-align: center;
+    gap: 48px;
 }
 .title{
+    max-width: 496px;
+    margin: 0 auto;
+    margin-top: 186px;
     font-weight: 700;
     font-size: 56px;
     line-height: 0.9;
     color: #ffffff;
 }
 .btn{
+    margin: 0 auto;
+    margin-bottom: 204px;
     width:169px;
     height: 56px;
     border-radius: 4px;
@@ -78,6 +107,11 @@ body {
 }
 
 
+.s-2 ul{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 .s-2 h3{
     width: 254px;
     font-weight: 500;
@@ -96,6 +130,12 @@ body {
 .s-3{
     background-color: #F4F4FD;
 }
+.s-3 ul{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
 .s-3 h2{
     text-align: center;
     font-size: 36px;
@@ -103,6 +143,12 @@ body {
     color: #2E2F42;
 }
 
+.s-4 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
 .s-4 h2{
     text-align: center;
     font-size: 36px;
