@@ -1,0 +1,132 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    margin: 0 auto;
+    width: 1440px;
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* header */
+
+.header, footer a{
+    font-family: 'Raleway', sans-serif;
+    line-height: 0.9;
+    font-weight: 700;
+}
+.header a{
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: 3%;
+}
+.nav{
+    font-weight: 500;
+    color: #2E2F42;
+}
+.nav li a:hover{
+    color: #404BBF;
+}
+.nav li a:focus{
+    color: #404BBF;
+}
+.info a{
+    font-weight: 400;
+    color: #434455;
+}
+.info a:hover{
+    color: #404BBF;
+}
+.info a:focus{
+    color: #404BBF;
+}
+.blue_color{
+    color: #4D5AE5;
+}
+
+/* main */
+
+.s-1{
+    height: 600px;
+    background-color: #2E2F42;
+    text-align: center;
+}
+.title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 0.9;
+    color: #ffffff;
+}
+.btn{
+    width:169px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #404BBF;
+}
+
+
+.s-2 h3{
+    width: 254px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+.s-2 p{
+    width: 254px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+
+.s-3{
+    background-color: #F4F4FD;
+}
+.s-3 h2{
+    text-align: center;
+    font-size: 36px;
+    line-height: 0.9;
+    color: #2E2F42;
+}
+
+.s-4 h2{
+    text-align: center;
+    font-size: 36px;
+    line-height: 0.9;
+    color: #2E2F42;
+}
+
+.s-4 h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.8;
+    color: #2E2F42;
+}
+
+/* footer */
+
+footer{
+    background-color: #2E2F42;
+}
+footer a{
+    font-size: 18px;
+    color: #F4F4FD;
+}
+footer p{
+    width: 264px;
+    color: #F4F4FD;
+}
