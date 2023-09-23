@@ -1,4 +1,5 @@
-*{
+*, *::before, *::after{
+    box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
 }
@@ -14,37 +15,69 @@ body {
     text-decoration: none;
     list-style-type: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
 
 /* header */
 
-.header, footer a{
+.container{
+    width: 1128px;
+    margin: 0 auto;
+}
+.header a, footer a{
     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
     line-height: 0.9;
     font-weight: 700;
 }
-
-.header {
-    display: flex;
-    margin-left: 156px;
-
-}
-
-.logo{
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: 3%;
-}
-.nav,.nav ul {
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    gap: 40px;
-    flex-grow: 1;
-    font-weight: 500;
+.header .logo {
+    text-transform: uppercase;
     color: #2E2F42;
 }
 
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+
+.nav,.nav ul {
+    display: flex;
+    flex-grow: 1;
+    gap: 40px;
+    margin-left: 36px;
+}
+
+.nav li a {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E2F42;
+}
 
 .nav li a:hover{
     color: #404BBF;
@@ -55,10 +88,11 @@ body {
 .info{
     font-weight: 400;
     display: flex;
-    margin-right: 156px;
     gap: 40px;
 }
-.info a{
+.info li a{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 400;
     color: #434455;
 }
@@ -74,18 +108,21 @@ body {
 
 /* main */
 
-.s-1{
+.s-1 {
     display: flex;
     flex-direction: column;
     height: 600px;
     background-color: #2E2F42;
     text-align: center;
+    margin: 0 auto;
     gap: 48px;
+    border-top: 1px solid #E7E9FC;
 }
 .title{
     max-width: 496px;
     margin: 0 auto;
     margin-top: 186px;
+    margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 0.9;
@@ -111,6 +148,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 .s-2 h3{
     width: 254px;
@@ -118,6 +157,7 @@ body {
     font-size: 20px;
     line-height: 1.5;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .s-2 p{
     width: 254px;
@@ -136,7 +176,22 @@ body {
     gap: 24px;
 
 }
+
+.s-3 ul li {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.s-3 ul li h3{
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+.s-3 ul li p{
+    padding-bottom: 32px;
+}
 .s-3 h2{
+    padding-top: 120px ;
+    padding-bottom: 72px ;
     text-align: center;
     font-size: 36px;
     line-height: 0.9;
@@ -154,6 +209,9 @@ body {
     font-size: 36px;
     line-height: 0.9;
     color: #2E2F42;
+    padding-top: 120px;
+    padding-bottom: 72px;
+
 }
 
 .s-4 h3{
@@ -161,6 +219,18 @@ body {
     font-size: 20px;
     line-height: 0.8;
     color: #2E2F42;
+    padding-bottom: 8px;
+    padding-top: 32px;
+    padding-left: 18px;
+}
+.s-4 p{
+    padding-left: 18px;
+    padding-bottom: 32px;
+}
+.s-4 ul li div{
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 /* footer */
