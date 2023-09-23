@@ -67,7 +67,7 @@ header {
     display: flex;
     text-align: center;
 }
-.men{  
+.menu-1{  
     display: flex;
     align-items: center;
     gap: 40px;
@@ -165,7 +165,7 @@ address {
     justify-content: center;
     gap: 24px;
 }
-.sec-2 .description li:last-child{
+.sec-2 .description:last-child{
     margin-right: 0;
 }
 .sec-2 .description .first:first-child{
