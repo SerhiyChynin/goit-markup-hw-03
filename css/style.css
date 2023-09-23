@@ -121,7 +121,7 @@ img {
 .title{
     max-width: 496px;
     margin: 0 auto;
-    margin-top: 186px;
+    margin-top: 66px;
     margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
@@ -148,8 +148,6 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 120px;
-    margin-bottom: 120px;
 }
 .s-2 h3{
     width: 254px;
@@ -180,7 +178,6 @@ img {
 .s-3 ul li {
     background-color: #FFFFFF;
     text-align: center;
-    margin-bottom: 120px;
 }
 .s-3 ul li h3{
     padding-top: 32px;
@@ -190,7 +187,6 @@ img {
     padding-bottom: 32px;
 }
 .s-3 h2{
-    padding-top: 120px ;
     padding-bottom: 72px ;
     text-align: center;
     font-size: 36px;
@@ -209,7 +205,6 @@ img {
     font-size: 36px;
     line-height: 0.9;
     color: #2E2F42;
-    padding-top: 120px;
     padding-bottom: 72px;
 
 }
@@ -236,7 +231,6 @@ img {
 /* footer */
 
 footer{
-    margin-top: 120px;
     background-color: #2E2F42;
     padding-top: 101px;
 }
@@ -250,4 +244,8 @@ footer p{
     padding-bottom: 100px;
     width: 264px;
     color: #F4F4FD;
+}
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
