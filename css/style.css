@@ -67,7 +67,7 @@ header {
     display: flex;
     text-align: center;
 }
-.menu-1{  
+.menu-list{  
     display: flex;
     align-items: center;
     gap: 40px;
@@ -83,6 +83,7 @@ header {
 
 .nav li a {
     font-family: "Roboto", sans-serif;
+    padding: 24px 0 24px 0;
     font-size: 16px;
     font-weight: 500;
     color: #2E2F42;
